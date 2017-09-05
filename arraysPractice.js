@@ -53,7 +53,7 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
   //Code Here
 
-
+var evenFinder = nums.filter(nums => nums % 2 === 0)
 
 
   
