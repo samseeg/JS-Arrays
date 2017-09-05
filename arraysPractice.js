@@ -26,7 +26,7 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
   //Code Here
 var looper = (family) => {
-  for (i = 0; i < family.length; i++) {
+  for (i = arr.length - 1; i >= 0; i--) {
     alert(arr[i]);
   }
 }
